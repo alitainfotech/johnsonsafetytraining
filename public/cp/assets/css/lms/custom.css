@@ -1,0 +1,100 @@
+/**
+* @author Jayesh
+*
+* @uses For extra custom styles
+*
+*/
+table.dataTable thead>tr>th.sorting:before,
+table.dataTable thead>tr>th.sorting:after {
+    font-size: 20px;
+}
+table.dataTable thead>tr>th.sorting_asc.sorting_disabled:before,
+table.dataTable thead>tr>th.sorting_asc.sorting_disabled:after,
+table.dataTable thead>tr>th.sorting_desc.sorting_disabled:before,
+table.dataTable thead>tr>th.sorting_desc.sorting_disabled:after {
+    display: none;
+}
+table.dataTable thead tr th.sorting_disabled {
+    cursor: text !important;
+}
+table.dataTable td,
+table.dataTable th {
+    vertical-align: middle;
+}
+.dataTables_scroll {
+    margin: 0 0 20px 0;
+}
+button {
+    text-transform: capitalize !important;
+}
+.btn:disabled {
+    pointer-events: initial;
+    cursor: not-allowed !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+img {
+    max-width: 100%;
+}
+.product-wrapper {
+    position: relative;
+}
+.product-image {
+    border: 1px solid #eee;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding: 5px;
+}
+.product-image-button {
+    position: absolute;
+    left: auto;
+    right: calc(var(--bs-gutter-x) * 0.5);
+    top: 0;
+    bottom: auto;
+}
+.modal-body {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.form-control:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+div#modalBody3 p span {
+    float: left;
+    width: auto;
+    display: contents;
+}
+div#modalBody3 p svg {
+    float: left;
+    width: auto;
+    margin: 0 15px 0 0;
+}
+div#calendarExportUrl {
+    word-break: break-all;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.list-group-item {
+    padding: 10px;
+}
+input#date_valid {
+    margin-left: 10px;
+}
+
+.stretch-card > .card {
+    width: 100%;
+    min-width: 100%;
+    padding: 10px;
+}
+
+.stretch-card > .card > h6{
+    margin-bottom: 5px;
+}

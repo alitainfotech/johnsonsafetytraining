@@ -1,0 +1,54 @@
+.navbar-area .nav-container .navbar-collapse .navbar-nav {
+    text-align: right;
+}
+.bg-base {
+    background: #ffffff;
+}
+.container-banner {
+    max-width: 1451px;
+    padding-top: 80px;
+    padding-left: 152px;
+}
+.title {
+    text-transform: capitalize;
+}
+.single-course-inner .thumb img {
+    transform: scale(1);
+    transition: 0.9s;
+    height: 300px;
+    width: 491px;
+}
+.breadcrumb-area {
+    padding: 165px 0 60px;
+}
+.breadcrumb-area .page-title {
+    margin: 0;
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.single-list-inner .media .media-left {
+    max-width: 80px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.media-body.align-self-center p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-section {
+    padding: 30px;
+    background: #eee;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.checkbox label input {margin-right: 5px;}
